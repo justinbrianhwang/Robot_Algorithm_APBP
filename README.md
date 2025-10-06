@@ -5,10 +5,25 @@ behaviors: local minima / escape, rigid-body parking (3-point docking), obstacle
 and a UAV takeoff + 3D visualization variant.
 
 ## Included files
-- `apbp_pybullet_demo_local_minimum.py` — local-minimum prone APBP demo with optional tangential escape. (See file for controls.) fileciteturn1file0
-- `apbp_parking_3points.py` — rigid 3-point (triangle) parking / docking using APBP and Kabsch-2D snap. fileciteturn1file1
-- `avoid_shit.py` — Arena + spawned spherical obstacles; proximity-weighted APBP avoidance with simple local-minimum rotation subplanner. fileciteturn1file2
-- `apbp_uav_3d_triangle.py` — 3-point parking demo adapted for a UAV: starts on the ground and ascends to a triangular goal in the air. fileciteturn1file3
+- `apbp_pybullet_demo_local_minimum.py` — local-minimum prone APBP demo with optional tangential escape. (See file for controls.)
+
+  <img width="622" height="296" alt="image" src="https://github.com/user-attachments/assets/3630a0ae-5263-42f0-b4e0-857fdd783758" />
+
+- `apbp_parking_3points.py` — rigid 3-point (triangle) parking / docking using APBP and Kabsch-2D snap.
+
+  <img width="641" height="296" alt="image" src="https://github.com/user-attachments/assets/238e99eb-a255-4113-b326-98c242565109" />
+
+
+- `avoid_shit.py` — Arena + spawned spherical obstacles; proximity-weighted APBP avoidance with simple local-minimum rotation subplanner.
+
+  <img width="664" height="368" alt="image" src="https://github.com/user-attachments/assets/014afaa4-19d5-44fd-b131-8ca6921496e3" />
+
+
+- `apbp_uav_3d_triangle.py` — 3-point parking demo adapted for a UAV: starts on the ground and ascends to a triangular goal in the air.
+
+<img width="749" height="425" alt="image" src="https://github.com/user-attachments/assets/cffc684e-c4fd-4dd0-b41e-d00fe6286be0" />
+
+  
 
 ## Quick start
 
